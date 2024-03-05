@@ -1,5 +1,5 @@
 # velocity_calculator.py
-def calculate_velocity(previous_sprints_points):
+def calculate_velocity_core_logic(previous_sprints_points):
     if not previous_sprints_points:
         return 0
     
