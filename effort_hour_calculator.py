@@ -1,5 +1,5 @@
 # effort_hour_calculator.py
-def calculate_effort_hour_capacity(sprint_days, team_member_details):
+def calculate_effort_hour_capacity_core_logic(sprint_days, team_member_details):
     if sprint_days <= 0:
         return 0
 
